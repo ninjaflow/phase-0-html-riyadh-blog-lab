@@ -43,6 +43,7 @@ h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+  line-height: 8px;
 }
 
 img {
@@ -58,10 +59,13 @@ p {
 a {
   color: black;
   text-decoration: none;
+  display: block;
+  line-height: 20px;
 }
 
 a:hover {
   text-decoration: underline;
+
 }
 
 @media only screen and (max-width: 1042px) {
